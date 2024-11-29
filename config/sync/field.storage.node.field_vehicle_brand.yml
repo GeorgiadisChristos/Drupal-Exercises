@@ -1,17 +1,17 @@
-uuid: a5b4ae23-41bd-47e2-bf6e-8093bc905386
+uuid: 87f77240-9b9b-4508-ad08-ff2e44dc0791
 langcode: en
 status: true
 dependencies:
   module:
-    - datetime
     - node
-id: node.field_release_date
-field_name: field_release_date
+    - taxonomy
+id: node.field_vehicle_brand
+field_name: field_vehicle_brand
 entity_type: node
-type: datetime
+type: entity_reference
 settings:
-  datetime_type: date
-module: datetime
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

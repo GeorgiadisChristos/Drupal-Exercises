@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.vehicle.body
     - field.field.node.vehicle.field_price
     - field.field.node.vehicle.field_release_date
+    - field.field.node.vehicle.field_vehicle_brand
+    - field.field.node.vehicle.field_vehicle_image
     - node.type.vehicle
   module:
     - text
@@ -32,3 +34,5 @@ content:
 hidden:
   field_price: true
   field_release_date: true
+  field_vehicle_brand: true
+  field_vehicle_image: true

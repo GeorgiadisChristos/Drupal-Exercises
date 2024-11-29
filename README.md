@@ -29,10 +29,10 @@ If you are working on these tasks as part of an interview/hiring process, your w
 - [x] Create a content type called `vehicle`
 - [x] Add fields: `release date` (date) and `price` (float)
 - [x] Install the open-source theme named `bartik`
-- [ ] Create a View displaying vehicles in a table sorted by release date
-- [ ] Add an exposed filter to the View to show vehicles newer than a user-specified date
-- [ ] Add images to the content type (bonus point if done with media)
-- [ ] Add taxonomy terms to the content type for the brand (e.g., Ferrari, Mercedes, McLaren) in a `brand` vocabulary
+- [x] Create a View displaying vehicles in a table sorted by release date
+- [x] Add an exposed filter to the View to show vehicles newer than a user-specified date
+- [x] Add images to the content type (bonus point if done with media)
+- [x] Add taxonomy terms to the content type for the brand (e.g., Ferrari, Mercedes, McLaren) in a `brand` vocabulary
 
 ## Frontend Drupal Tasks
 
