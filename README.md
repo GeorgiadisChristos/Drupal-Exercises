@@ -42,7 +42,7 @@ If you are working on these tasks as part of an interview/hiring process, your w
 
 ## Backend Drupal Tasks
 
-- [ ] Create a custom module that returns a 404 error for any vehicle with a release date in 2020
+- [x] Create a custom module that returns a 404 error for any vehicle with a release date in 2020
 
 ## Drupal Migrations
 

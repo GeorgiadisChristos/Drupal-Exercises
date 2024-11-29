@@ -1,0 +1,5 @@
+name: 'PageNotFound'
+type: module
+description: 'Redirects users to a 404 page if accessing vehicles from a specific release date.'
+package: Custom
+core_version_requirement: ^10 || ^11
