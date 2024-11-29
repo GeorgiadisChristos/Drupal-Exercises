@@ -1,0 +1,20 @@
+uuid: 08466789-d442-49a3-981c-41140581731d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartikplusplus
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: bartikplusplus_primary_admin_actions
+theme: bartikplusplus
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
