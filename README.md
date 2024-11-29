@@ -23,12 +23,12 @@ If you are working on these tasks as part of an interview/hiring process, your w
 - [x] Perform a standard installation
 - [x] Track your codebase with Git (be mindful of what to track!)
 - [x] Create a merge/pull request with your changes to the original GitLab repo
-- [ ] Set the configuration export folder to `../config/sync`
-- [ ] Install Drush
-- [ ] Export the configuration and commit it to Git (do this regularly!)
-- [ ] Create a content type called `vehicle`
-- [ ] Add fields: `release date` (date) and `price` (float)
-- [ ] Install the open-source theme named `bartik`
+- [x] Set the configuration export folder to `../config/sync`
+- [x] Install Drush
+- [x] Export the configuration and commit it to Git (do this regularly!)
+- [x] Create a content type called `vehicle`
+- [x] Add fields: `release date` (date) and `price` (float)
+- [x] Install the open-source theme named `bartik`
 - [ ] Create a View displaying vehicles in a table sorted by release date
 - [ ] Add an exposed filter to the View to show vehicles newer than a user-specified date
 - [ ] Add images to the content type (bonus point if done with media)
