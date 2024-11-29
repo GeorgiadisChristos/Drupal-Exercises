@@ -6,7 +6,7 @@
 
 ## What is this repository?
 
-It contains a series of tasks essential for someone who wants to get started with Drupal.  
+It contains a series of tasks essential for someone who wants to get started with Drupal.
 If you are working on these tasks as part of an interview/hiring process, your work will be reviewed, and you will receive feedback on best practices, correct, and incorrect points, regardless of the hiring outcome!
 
 ## Usage Instructions
@@ -18,11 +18,11 @@ If you are working on these tasks as part of an interview/hiring process, your w
 
 ## Drupal Site Building Tasks
 
-- [ ] Fork this repository and commit/push to your fork (use your judgment on when to commit)
-- [ ] Set up Drupal locally (using DDEV)
-- [ ] Perform a standard installation
-- [ ] Track your codebase with Git (be mindful of what to track!)
-- [ ] Create a merge/pull request with your changes to the original GitLab repo
+- [x] Fork this repository and commit/push to your fork (use your judgment on when to commit)
+- [x] Set up Drupal locally (using DDEV)
+- [x] Perform a standard installation
+- [x] Track your codebase with Git (be mindful of what to track!)
+- [x] Create a merge/pull request with your changes to the original GitLab repo
 - [ ] Set the configuration export folder to `../config/sync`
 - [ ] Install Drush
 - [ ] Export the configuration and commit it to Git (do this regularly!)
