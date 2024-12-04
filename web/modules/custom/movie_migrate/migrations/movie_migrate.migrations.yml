@@ -1,0 +1,26 @@
+id: movie_migration
+label: Movie Migration
+source:
+  plugin: url
+  data_fetcher_plugin: http
+  data_parser_plugin: json
+  urls:
+    - 'https://stapi.co/api/v1/rest/movie/search'
+  item_selector: movies
+  fields:
+    -
+      name: movie
+      selector: title
+  ids:
+    movie:
+      type: string
+process:
+  type:
+    plugin: default_value
+    default_value: movie
+  title:
+    plugin: get
+    source: movie
+destination:
+  plugin: entity:node
+  bundle: movie

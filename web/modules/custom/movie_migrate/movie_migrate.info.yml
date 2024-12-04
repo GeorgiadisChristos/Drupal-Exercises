@@ -1,0 +1,8 @@
+name: 'movie_migrate'
+type: module
+description: 'Migrates movies from a JSON API'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:migrate
+  - drupal:migrate_plus
