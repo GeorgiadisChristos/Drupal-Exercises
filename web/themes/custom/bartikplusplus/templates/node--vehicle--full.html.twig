@@ -100,4 +100,13 @@
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
     {{ content }}
   </div>
+
+
+  {% embed 'bartikplusplus:chip' %}
+
+    {% block chip_content %}
+      Type: <span>{{ node.bundle() }}</span>
+    {% endblock %}
+
+  {% endembed %}
 </article>

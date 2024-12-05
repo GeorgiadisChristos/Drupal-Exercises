@@ -1,0 +1,5 @@
+name: Chip
+slots:
+  chip_content:
+      title: Content
+      description: Content of the chip

@@ -38,7 +38,7 @@ If you are working on these tasks as part of an interview/hiring process, your w
 
 - [x] Create a subtheme of `bartik`
 - [x] Override the content type's template
-- [ ] * Create a Single Directory Component and map it to the `vehicle` content type
+- [x] * Create a Single Directory Component and map it to the `vehicle` content type
 
 ## Backend Drupal Tasks
 

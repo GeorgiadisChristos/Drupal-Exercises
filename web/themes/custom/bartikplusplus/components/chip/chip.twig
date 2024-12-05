@@ -1,0 +1,8 @@
+{%
+    set classes = [
+        'chip'
+]
+%}
+<div class="{{ classes|join(" ") }}">
+    {% block chip_content %}{% endblock %}
+</div>
