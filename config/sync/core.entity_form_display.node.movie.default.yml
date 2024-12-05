@@ -4,8 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.movie.body
+    - field.field.node.movie.field_director
+    - field.field.node.movie.field_languages
+    - field.field.node.movie.field_released
     - node.type.movie
   module:
+    - datetime
     - path
     - text
 id: node.movie.default
@@ -26,6 +30,30 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_director:
+    type: string_textfield
+    weight: 122
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_languages:
+    type: entity_reference_autocomplete
+    weight: 124
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_released:
+    type: datetime_default
+    weight: 123
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -1,0 +1,9 @@
+uuid: daa40218-d73f-4122-bdce-2174f70472f6
+langcode: en
+status: true
+dependencies: {  }
+name: languages
+vid: languages
+description: null
+weight: 0
+new_revision: false

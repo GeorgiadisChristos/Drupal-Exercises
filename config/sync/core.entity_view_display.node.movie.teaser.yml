@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.movie.body
+    - field.field.node.movie.field_director
+    - field.field.node.movie.field_languages
+    - field.field.node.movie.field_released
     - node.type.movie
   module:
     - text
@@ -27,4 +30,7 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_director: true
+  field_languages: true
+  field_released: true

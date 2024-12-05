@@ -1,0 +1,28 @@
+<?php
+
+namespace Drupal\movie_migrate;
+
+function map_taxonomy_terms($titles) {
+    $taxonomy_terms = [
+        14, // Bulgarian
+        15, // Catalan
+        16, // Chinese Traditional
+        17, // German
+        18, // Italian
+        19, // Japanese
+        20, // Polish
+        21, // Russian
+        23, // Serbian
+        24  // Spanish
+    ];
+
+    $languages = array();
+
+    foreach ($titles as $index => $title) {
+        if (!empty($title)) {
+        $languages[] = $taxonomy_terms[$index];
+        }
+    }
+
+    return $languages;
+}

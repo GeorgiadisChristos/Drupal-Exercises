@@ -11,6 +11,42 @@ source:
     -
       name: movie
       selector: title
+    -
+      name: director
+      selector: mainDirector/name
+    -
+      name: release
+      selector: usReleaseDate
+    -
+      name: titleBulgarian
+      selector: titleBulgarian
+    -
+      name: titleCatalan
+      selector: titleCatalan
+    -
+      name: titleChineseTraditional
+      selector: titleChineseTraditional
+    -
+      name: titleGerman
+      selector: titleGerman
+    -
+      name: titleItalian
+      selector: titleItalian
+    -
+      name: titleJapanese
+      selector: titleJapanese
+    -
+      name: titlePolish
+      selector: titlePolish
+    -
+      name: titleRussian
+      selector: titleRussian
+    -
+      name: titleSerbian
+      selector: titleSerbian
+    -
+      name: titleSpanish
+      selector: titleSpanish
   ids:
     movie:
       type: string
@@ -21,6 +57,26 @@ process:
   title:
     plugin: get
     source: movie
+  field_director:
+    plugin: get
+    source: director
+  field_released:
+    plugin: get
+    source: release
+  field_languages:
+    plugin: callback
+    callable: Drupal\movie_migrate\map_taxonomy_terms
+    source:
+      - titleBulgarian
+      - titleCatalan
+      - titleChineseTraditional
+      - titleGerman
+      - titleItalian
+      - titleJapanese
+      - titlePolish
+      - titleRussian
+      - titleSerbian
+      - titleSpanish
 destination:
   plugin: entity:node
   bundle: movie

@@ -4,8 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.movie.body
+    - field.field.node.movie.field_director
+    - field.field.node.movie.field_languages
+    - field.field.node.movie.field_released
     - node.type.movie
   module:
+    - datetime
     - text
     - user
 id: node.movie.default
@@ -19,6 +23,31 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_director:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_languages:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_released:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
     region: content
   links:
     settings: {  }
