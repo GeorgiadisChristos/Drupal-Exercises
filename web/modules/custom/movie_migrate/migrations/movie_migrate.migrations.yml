@@ -64,19 +64,18 @@ process:
     plugin: get
     source: release
   field_languages:
-    plugin: callback
-    callable: Drupal\movie_migrate\map_taxonomy_terms
-    source:
-      - titleBulgarian
-      - titleCatalan
-      - titleChineseTraditional
-      - titleGerman
-      - titleItalian
-      - titleJapanese
-      - titlePolish
-      - titleRussian
-      - titleSerbian
-      - titleSpanish
+    plugin: StaticKeyMap
+    map:
+      titleBulgarian: 14
+      titleCatalan: 15
+      titleChineseTraditional: 16
+      titleGerman: 17
+      titleItalian: 18
+      titleJapanese: 19
+      titlePolish: 20
+      titleRussian: 21
+      titleSerbian: 23
+      titleSpanish: 24
 destination:
   plugin: entity:node
   bundle: movie

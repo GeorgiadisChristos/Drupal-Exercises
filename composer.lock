@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15ffaa71857de73dedcada50d219711c",
+    "content-hash": "c58a1fe0099e3e09ed74ea81b6f1bc61",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -999,6 +999,54 @@
                 "source": "https://git.drupalcode.org/project/migrate_plus",
                 "issues": "https://www.drupal.org/project/issues/migrate_plus",
                 "slack": "#migrate"
+            }
+        },
+        {
+            "name": "drupal/migrate_sandbox",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/migrate_sandbox.git",
+                "reference": "1.1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/migrate_sandbox-1.1.7.zip",
+                "reference": "1.1.7",
+                "shasum": "e8733bc779c1902688d53cbc08f6b7307d034239"
+            },
+            "require": {
+                "drupal/core": "^9.2 | ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.7",
+                    "datestamp": "1720211965",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "cosmicdreams",
+                    "homepage": "https://www.drupal.org/user/42579"
+                },
+                {
+                    "name": "danflanagan8",
+                    "homepage": "https://www.drupal.org/user/3615359"
+                }
+            ],
+            "description": "Lets you play with process pipeline",
+            "homepage": "https://www.drupal.org/project/migrate_sandbox",
+            "support": {
+                "source": "https://git.drupalcode.org/project/migrate_sandbox"
             }
         },
         {

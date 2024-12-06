@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^10.3",
         "drupal/migrate_devel": "^3.0",
         "drupal/migrate_plus": "^6.0",
+        "drupal/migrate_sandbox": "^1.1",
         "drupal/migrate_tools": "^6.0"
     },
     "conflict": {
